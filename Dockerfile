@@ -14,6 +14,7 @@ COPY ./AppdStart.sh /
 ADD target/gs-spring-boot-docker-0.1.0.jar app.jar
 RUN chmod +x /AppdStart.sh
 ENV JAVA_OPTS=""
-CMD["/AppdStart.sh"]
+
 # To reduce Tomcat startup time we added a system property pointing to "/dev/urandom" as a source of entropy.
 ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar" ]
+CMD "/AppdStart.sh"
