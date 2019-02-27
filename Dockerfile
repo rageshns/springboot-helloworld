@@ -7,8 +7,13 @@ FROM openjdk:8-jdk-alpine
 # if they need to actually write in the filesystem.
 VOLUME /tmp
 
-ADD target/gs-spring-boot-docker-0.1.0.jar app.jar
-ENV JAVA_OPTS=""
+#COPY ./docker-entrypoint.sh /
+COPY AppdConfig.env /AppdConfig.env
+COPY AppdStart.sh /AppdStart.sh
 
+ADD target/gs-spring-boot-docker-0.1.0.jar app.jar
+RUN chmod +x /AppdStart.sh
+ENV JAVA_OPTS=""
+CMD["/AppdStart.sh"]
 # To reduce Tomcat startup time we added a system property pointing to "/dev/urandom" as a source of entropy.
 ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar" ]
