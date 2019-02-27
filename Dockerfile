@@ -1,4 +1,5 @@
-FROM store/appdynamics/java:4.5_jdk8-alpine
+FROM appdynamics/dynamic-agent-ma
+FROM openjdk:8-jdk-alpine
 
 ENV FC_LANG en-US
 ENV LC_CTYPE en_US.UTF-8
