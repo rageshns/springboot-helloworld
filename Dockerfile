@@ -7,9 +7,9 @@ FROM openjdk:8-jdk-alpine
 # if they need to actually write in the filesystem.
 VOLUME /tmp
 
-#COPY ./docker-entrypoint.sh /
+#COPY ./AppdStart.sh /
 COPY AppdConfig.env /AppdConfig.env
-COPY AppdStart.sh /AppdStart.sh
+COPY ./AppdStart.sh /
 
 ADD target/gs-spring-boot-docker-0.1.0.jar app.jar
 RUN chmod +x /AppdStart.sh
