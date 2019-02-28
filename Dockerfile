@@ -24,5 +24,5 @@ RUN chmod 0755 /AppdStart.sh
 
 # runs application
 #CMD ["/usr/bin/java", "-jar", "-Djava.security.egd=file:/dev/./urandom", "/app.jar"]
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+ENTRYPOINT ["sh", "-c","/AppdStart.sh","java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 #ENTRYPOINT ["sh","/AppdStart.sh"]
