@@ -20,9 +20,9 @@ RUN chmod 0755 /AppdStart.sh
 # To reduce Tomcat startup time we added a system property pointing to "/dev/urandom" as a source of entropy.
 #ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar" ]
 #ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
-#CMD "/AppdStart.sh"
+
 
 # runs application
 #CMD ["/usr/bin/java", "-jar", "-Djava.security.egd=file:/dev/./urandom", "/app.jar"]
-#ENTRYPOINT ["sh","-c","java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
-ENTRYPOINT ["./AppdStart.sh"]
+ENTRYPOINT ["sh","-c","java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+#CMD "./AppdStart.sh"
