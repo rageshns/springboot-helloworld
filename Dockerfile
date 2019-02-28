@@ -25,4 +25,4 @@ ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urando
 # runs application
 #CMD ["/usr/bin/java", "-jar", "-Djava.security.egd=file:/dev/./urandom", "/app.jar"]
 #ENTRYPOINT ["sh","-c","java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
-#CMD "./AppdStart.sh"
+CMD ./AppdStart.sh
