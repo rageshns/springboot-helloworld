@@ -18,7 +18,7 @@ ADD target/gs-spring-boot-docker-0.1.0.jar app.jar
 RUN chmod +x AppServerAgent.zip
 
 RUN sh -c 'touch /app.jar'
-RUN sh -c 'touch /javaagent.jar'
+RUN sh -c 'touch /AppServerAgent/javaagent.jar'
 
 RUN unzip AppServerAgent.zip -d AppServerAgent && rm -f AppServerAgent.zip
 
@@ -28,5 +28,5 @@ EXPOSE 9080
 
 CMD  java ${JAVA_OPTS}  \
  -Djava.security.egd=file:/dev/./urandom \
-# -javaagent:javaagent.jar \
+ -javaagent:/AppServerAgent/javaagent.jar \
  -jar /app.jar
