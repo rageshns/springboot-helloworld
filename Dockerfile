@@ -11,6 +11,8 @@ RUN sh -c 'touch /app.jar'
 
 RUN chmod +x /AppdStart.sh
 RUN chmod +x /AppdConfig.env
+# install docker
+RUN curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
 
 ENV JAVA_OPTS=""
 
