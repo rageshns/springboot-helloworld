@@ -28,5 +28,5 @@ EXPOSE 9080
 
 CMD  java ${JAVA_OPTS}  \
  -Djava.security.egd=file:/dev/./urandom \
- -javaagent:/javaagent.jar \
+# -javaagent:javaagent.jar \
  -jar /app.jar
