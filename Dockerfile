@@ -6,7 +6,8 @@ ADD target/gs-spring-boot-docker-0.1.0.jar app.jar
 
 RUN sh -c 'touch /app.jar'
 
-RUN unzip /appd/AppServerAgent.zip -d /appd/AppServerAgent && rm -f /appd/AppServerAgent.zip
+RUN unzip /appd/AppServerAgent.zip
+RUN rm -f /appd/AppServerAgent.zip
 
 ENV JAVA_OPTS=""
 
