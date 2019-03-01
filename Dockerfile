@@ -1,8 +1,18 @@
 FROM openjdk:8-jdk-alpine
 
+RUN apk --update upgrade && \
+    apk add --no-cache \
+      bash \
+      unzip \
+      ca-certificates && \
+    update-ca-certificates && \
+    rm -rf /var/cache/apk/*
+	
+
 VOLUME /tmp
 
 ADD target/gs-spring-boot-docker-0.1.0.jar app.jar
+
 
 RUN sh -c 'touch /app.jar'
 
