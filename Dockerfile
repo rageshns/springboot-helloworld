@@ -1,4 +1,4 @@
-FROM store/appdynamics/java:4.5_jdk8-alpine
+FROM 196573780280.dkr.ecr.us-east-1.amazonaws.com/pcl-appd-jdk-apm:4.5_jdk8-alpine
 
 # We added a VOLUME pointing to "/tmp" because that is where a Spring Boot application creates
 # working directories for Tomcat by default. The effect is to create a temporary file on your

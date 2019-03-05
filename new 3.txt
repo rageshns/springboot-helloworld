@@ -1,0 +1,157 @@
+*************************
+***** IMPORTED: "retrofitted-ImportDataFeeds" *****
+*************************
+DURATION:
+Started: Wed Jan 16 06:00:03 UTC 2019
+Completed: Wed Jan 16 06:00:21 UTC 2019
+
+IMPORT STATISTICS:
+Validation Objects Processed: 6547 | Created: 0 | Updated: 0 | Unchanged: 6478 | Errors: 69
+69 Validation skipped due to errors.  Inspect the following items: 
+Row skipped. Unable to parse line 50.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 201.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 235.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 237.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 245.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 262.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 433.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 511.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 521.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 563.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 573.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 831.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1002.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1030.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1093.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1159.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1330.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1487.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1506.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1690.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1815.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1956.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2142.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2169.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2201.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2206.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2342.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2534.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2799.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2825.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2826.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2884.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3126.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3138.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3153.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3453.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3480.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3703.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3780.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3806.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3866.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3981.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4107.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4133.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4176.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4192.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4193.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4434.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4437.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4461.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4635.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4761.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4779.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4819.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4830.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5106.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5149.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5289.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5422.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5484.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5616.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5666.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5811.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5995.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6138.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6155.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6270.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6322.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6482.  Number of columns does not match expected (Found: 6 Expected: 5) | Warnings: 0 | Info: 0
+Product Objects Processed: 6547 | Created: 6469 | Updated: 9 | Unchanged: 0 | Errors: 69
+69 Product skipped due to errors.  Inspect the following items: 
+Row skipped. Unable to parse line 50.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 201.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 235.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 237.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 245.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 262.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 433.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 511.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 521.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 563.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 573.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 831.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1002.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1030.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1093.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1159.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1330.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1487.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1506.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1690.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1815.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 1956.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2142.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2169.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2201.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2206.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2342.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2534.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2799.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2825.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2826.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 2884.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3126.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3138.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3153.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3453.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3480.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3703.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3780.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3806.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3866.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 3981.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4107.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4133.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4176.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4192.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4193.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4434.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4437.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4461.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4635.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4761.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4779.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4819.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 4830.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5106.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5149.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5289.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5422.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5484.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5616.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5666.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5811.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 5995.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6138.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6155.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6270.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6322.  Number of columns does not match expected (Found: 6 Expected: 5);
+Row skipped. Unable to parse line 6482.  Number of columns does not match expected (Found: 6 Expected: 5) | Warnings: 0 | Info: 0
+Category Objects Processed: 634 | Created: 499 | Updated: 135 | Unchanged: 0 | Errors: 0 | Warnings: 0 | Info: 0
+Brand Objects Processed: 0 | Created: 0 | Updated: 0 | Unchanged: 0 | Errors: 0 | Warnings: 0 | Info: 0
+
+FILE STATISTICS:
+Bytes (uncompressed): 5529048
+
+
