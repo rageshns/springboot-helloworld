@@ -8,4 +8,8 @@ ENV JAVA_OPTS=""
 
 EXPOSE 9080 8090
 
-CMD ["java ${JAVA_OPTS}","-javaagent:/opt/appdynamics/javaagent.jar","-Dlog4j.configurationFile=/opt/appdynamics/ver4.5.1.23676/conf/logging/log4j2.xml","-Djava.security.egd=file:/dev/./urandom", "-jar","/app.jar"]
+CMD  java ${JAVA_OPTS}  \
+ -Dlog4j.configurationFile=opt/appdynamics/ver4.5.1.23676/conf/logging/log4j2.xml \
+ -Djava.security.egd=file:/dev/./urandom \
+ -javaagent:/opt/appdynamics/javaagent.jar \
+ -jar /app.jar
