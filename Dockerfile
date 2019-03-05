@@ -10,5 +10,9 @@ VOLUME /tmp
 ADD target/gs-spring-boot-docker-0.1.0.jar app.jar
 ENV JAVA_OPTS=""
 
-# To reduce Tomcat startup time we added a system property pointing to "/dev/urandom" as a source of entropy.
-ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar" ]
+EXPOSE 9080 
+
+CMD  java ${JAVA_OPTS}  \
+ -Djava.security.egd=file:/dev/./urandom \
+ -javaagent:/opt/appdynamics/javaagent.jar \
+ -jar /app.jar
