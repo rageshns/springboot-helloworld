@@ -19,7 +19,6 @@ RUN chmod +x AppServerAgent.zip
 
 RUN sh -c 'touch /app.jar'
 
-
 RUN unzip AppServerAgent.zip -d AppServerAgent && rm -f AppServerAgent.zip
 
 ENV JAVA_OPTS=""
