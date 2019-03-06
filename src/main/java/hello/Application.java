@@ -11,7 +11,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello, JTOUGH! This is your Spring Boot webapp!";
+		return "welcome to appd testing!";
 	}
 
 	public static void main(String[] args) {
