@@ -4,13 +4,7 @@ FROM 196573780280.dkr.ecr.us-east-1.amazonaws.com/pcl-appd-jdk-apm:4.5_jdk8-alpi
 ENV FC_LANG en-US
 ENV LC_CTYPE en_US.UTF-8
 
-# dependencies
-RUN apk add --update bash ttf-dejavu fontconfig
 
-# fix broken cacerts
-RUN apk add --update java-cacerts && \
-    rm -f /usr/lib/jvm/default-jvm/jre/lib/security/cacerts && \
-    ln -s /etc/ssl/certs/java/cacerts /usr/lib/jvm/default-jvm/jre/lib/security/cacerts
 
 VOLUME /tmp
 
